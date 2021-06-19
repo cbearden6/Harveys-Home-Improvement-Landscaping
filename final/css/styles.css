@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: #666;
+}
+
+body {
+font-size: 100%;
+/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 20px auto;
+    /* center wrapper ^ */
+}
+
+header {
+    /* margin-bottom: 17px; */
+    /* position: fixed; */
+    /* top: 0; */
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#logo {
+    margin: auto;
+}
+
+nav {
+    height: 50px;
+    line-height: 50px;
+    background: #05a;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav li {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+nav a:hover {
+    background: #028;
+}
+
+.home nav li:nth-child(1) a,
+.services nav li:nth-child(2) a,
+.gallery nav li:nth-child(3) a,
+.about nav li:nth-child(4) a,
+.contact nav li:nth-child(5) a {
+background: #028;
+}
+
+main {
+    margin-top: 20px;
+    width: 580px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.container {
+    clear: both;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.third {
+    width: 300px;
+    float: left;
+    /* border: 1px solid #d6a717; */
+    /* padding: 15px 15px 0 15px; */
+}
+
+.third:nth-child(1),
+.third:nth-child(2) {
+margin-right: 20px;
+}
+
+p + ul {
+    margin: -13px 0 18px 30px;
+}
+
+aside {
+    margin-top: 30px;
+    background: white;
+    width: 340px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+figure {
+margin-bottom: 10px;
+}
+
+figcaption {
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+legend {
+    font-size: 1.3em;
+    font-style: italic;
+    padding: 0 4px;
+    color: #05a;
+}
+
+form {
+    max-width: 580px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    width: auto;
+    padding: 0 1.5em;
+    border-radius: 2em;
+    background-color: #05a;
+    transition: all .2s;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #028;
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+footer {
+    border-top: 1px solid #666;
+    height: 50px;
+    line-height: 50px;
+    font-size: .875em;
+    clear: both;
+}
+
+footer a {
+    color: #666;
+}
+
+footer ul {
+    list-style-type: none;
+    float: right;
+}
+
+/* dont forget that list items are block level elements, and if you would like them to be displayed horizontally, then float them */
+footer li {
+float: left;
+margin-left: 30px;
+color: #666;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.socials {
+    display: inline;
+}
+
+.services-photo {
+    float: right;
+    margin: 10px 0 25px 15px;
+}
+
+.services-type {
+    clear: both;
+    /* margin-bottom: 25px; */
+}
+
+
+/* typography */
+/* 1 em = 16px */
+h1, h2, h3, h4 {
+margin-bottom: 8px;
+/* font-family: times, serif; */
+line-height: 1.1;
+}
+
+
+h1 {
+    font-size: 2.488em;
+    font-weight: 200;
+    color: #05a;
+}
+
+h2 {
+    font-size: 2.074em;
+    color: #555;
+}
+
+h3 {
+    font-size: 1.728em;
+    color: #666;
+    font-weight: 200;
+}
+
+h4 {
+   font-size: 1.44em; 
+   color: #666;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+nav li {
+    font-size: .9em;
+}
+
+aside p {
+    font-size: .9em;
+    color: #666;
+}
+
+.third p {
+    font-size: .9em;
+}
+
+header h1 {
+    text-align: center;
+}
+
