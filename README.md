@@ -1,2 +1,2 @@
 # Harveys-Home-Improvement-Landscaping
-My final project in NSC's web authoring class
+A website I built for a friend (Harvey’s Home Improvement & Landscaping).
